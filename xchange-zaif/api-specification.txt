@@ -1,0 +1,9 @@
+Zaif Exchange API specification
+==============================
+
+
+This api provides access to such information as tickers, trades, orderbooks and common statistics of currency pairs.
+
+Documentation
+-------------
+http://techbureau-api-document.readthedocs.io/ja/latest/index.html

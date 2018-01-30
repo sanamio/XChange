@@ -1,0 +1,17 @@
+[
+  {
+    "id":10,
+    "is_token":true,
+    "name":"MAGATAMARD"
+  },
+  {
+    "id":120,
+    "is_token":true,
+    "name":"RURUBG"
+  },
+  {
+    "id":1,
+    "is_token":false,
+    "name":"btc"
+  }
+]

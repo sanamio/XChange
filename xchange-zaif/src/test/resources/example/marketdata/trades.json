@@ -1,0 +1,34 @@
+[
+  {
+    "date":1517289403,
+    "price":1191880.0,
+    "amount":0.0802,
+    "tid":97592926,
+    "currency_pair":"btc_jpy",
+    "trade_type":"bid"
+  },
+  {
+    "date":1517289403,
+    "price":1191880.0,
+    "amount":0.0265,
+    "tid":97592925,
+    "currency_pair":"btc_jpy",
+    "trade_type":"bid"
+  },
+  {
+    "date":1517289401,
+    "price":1191805.0,
+    "amount":0.1065,
+    "tid":97592924,
+    "currency_pair":"btc_jpy",
+    "trade_type":"ask"
+  },
+  {
+    "date":1517289401,
+    "price":1191805.0,
+    "amount":0.0224,
+    "tid":97592923,
+    "currency_pair":"btc_jpy",
+    "trade_type":"ask"
+  }
+]
