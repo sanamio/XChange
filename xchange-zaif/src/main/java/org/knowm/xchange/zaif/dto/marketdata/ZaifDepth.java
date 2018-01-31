@@ -44,7 +44,7 @@ public class ZaifDepth implements Serializable {
             return this.get(0);
         }
 
-        public BigDecimal getSize() {
+        public BigDecimal getAmount() {
             return this.get(1);
         }
     }
