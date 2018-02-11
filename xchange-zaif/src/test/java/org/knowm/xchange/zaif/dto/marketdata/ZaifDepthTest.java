@@ -2,6 +2,7 @@ package org.knowm.xchange.zaif.dto.marketdata;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
+import org.knowm.xchange.zaif.ZaifJacksonObjectMapperFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,7 +34,7 @@ public class ZaifDepthTest {
         // Read in the JSON from the example resources
         InputStream is = ZaifDepthTest.class.getResourceAsStream("/example/marketdata/depth.json");
 
-        ObjectMapper mapper = new ObjectMapper();
+        ObjectMapper mapper = new ZaifJacksonObjectMapperFactory().createObjectMapper();
         ZaifDepth obj = mapper.readValue(is, ZaifDepth.class);
 
         // Verify that the example data was unmarshalled correctly

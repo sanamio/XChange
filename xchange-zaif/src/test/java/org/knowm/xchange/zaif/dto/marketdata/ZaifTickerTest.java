@@ -2,6 +2,7 @@ package org.knowm.xchange.zaif.dto.marketdata;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
+import org.knowm.xchange.zaif.ZaifJacksonObjectMapperFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -29,7 +30,7 @@ public class ZaifTickerTest {
         // Read in the JSON from the example resources
         InputStream is = ZaifTickerTest.class.getResourceAsStream("/example/marketdata/ticker.json");
 
-        ObjectMapper mapper = new ObjectMapper();
+        ObjectMapper mapper = new ZaifJacksonObjectMapperFactory().createObjectMapper();
         ZaifTicker obj = mapper.readValue(is, ZaifTicker.class);
 
         // Verify that the example data was unmarshalled correctly
